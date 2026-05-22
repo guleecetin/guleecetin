@@ -1,18 +1,16 @@
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════╗
-║         Hi, I'm Gülendam Çetin 👩‍💻                   ║
-║              Backend · Full Stack Developer          ║
-╚══════════════════════════════════════════════════════╝
-```
+<h1>Hi, I'm Gülendam Çetin 👩‍💻</h1>
+<h3>Backend Developer · Full Stack</h3>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=7F77DD&center=true&vCenter=true&width=600&lines=Backend+Developer;Spring+Boot+%26+ASP.NET+Core;Microservice+Architecture;React+%26+Full+Stack;Open+to+Work+%F0%9F%9F%A2" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=7F77DD&center=true&vCenter=true&width=600&lines=Backend+Developer;Spring+Boot+%26+ASP.NET+Core;Microservice+Architecture;React+%26+Full+Stack;Open+to+Work+%F0%9F%9F%A2" alt="Typing SVG" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-gulendamcetin-7F77DD?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gulendamcetin/)
-[![Gmail](https://img.shields.io/badge/Gmail-gulendamcetin970-D4537E?style=flat-square&logo=gmail&logoColor=white)](mailto:gulendamcetin970@gmail.com)
-[![Website](https://img.shields.io/badge/Website-gulendamcetin.com.tr-00C2FF?style=flat-square&logo=google-chrome&logoColor=white)](https://gulendamcetin.com.tr)
-![Open to Work](https://img.shields.io/badge/Status-Open%20to%20Work-28c840?style=flat-square)
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-gulendamcetin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gulendamcetin/)
+[![Gmail](https://img.shields.io/badge/Gmail-gulendamcetin970-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gulendamcetin970@gmail.com)
+[![Website](https://img.shields.io/badge/Website-gulendamcetin.com.tr-00C2FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://gulendamcetin.com.tr)
+![Open to Work](https://img.shields.io/badge/Status-Open%20to%20Work-28c840?style=for-the-badge)
 
 </div>
 
@@ -23,16 +21,16 @@
 ```java
 public class Gülendam {
 
-    String[] currentStack  = {"Spring Boot", "React", "Microservices"};
-    String[] alsoKnow      = {"ASP.NET Core", "C#", "AWS", "Keycloak"};
-    String   education     = "Computer Engineering @ Fırat University";
-    String   location      = "Ataşehir, Istanbul 🇹🇷";
-    String   status        = "Open to Work 🟢";
+    String[] currentStack = {"Spring Boot", "React", "Microservices"};
+    String[] alsoKnow     = {"ASP.NET Core", "C#", "AWS", "Keycloak"};
+    String   education    = "Computer Engineering @ Fırat University";
+    String   location     = "Ataşehir, Istanbul 🇹🇷";
+    String   status       = "Open to Work 🟢";
 
     String summary() {
-        return "Backend-focused full stack developer with experience " +
-               "in microservice architecture, JWT/RBAC auth, " +
-               "cloud deployment on AWS, and modern web apps.";
+        return "Backend-focused full stack developer with experience in " +
+               "microservice architecture, JWT/RBAC auth, " +
+               "AWS deployment, and modern web apps.";
     }
 }
 ```
@@ -47,7 +45,7 @@ public class Gülendam {
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Microservices](https://img.shields.io/badge/Microservices-7F77DD?style=flat-square&logoColor=white)
+![Microservices](https://img.shields.io/badge/Microservices-7F77DD?style=flat-square)
 
 **Frontend**
 
@@ -75,37 +73,23 @@ public class Gülendam {
 
 ## 💼 Experience
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  🟣  Full Stack Developer                                    │
-│      Qoex Teknoloji  ·  Dec 2025 – Apr 2026                 │
-│                                                             │
-│  ›  Microservice backend development with Spring Boot       │
-│  ›  Inter-service communication & architecture design       │
-│  ›  React frontend development & API integrations           │
-│  ›  Keycloak authentication & authorization (JWT, RBAC)     │
-│  ›  Docker, Postman — testing, logging, unit tests          │
-│  ›  AWS deployment & go-live support                        │
-└─────────────────────────────────────────────────────────────┘
+**🟣 Full Stack Developer — Qoex Teknoloji** &nbsp;`Dec 2025 – Apr 2026`
+- Microservice backend development with Spring Boot
+- Inter-service communication & service architecture design
+- React frontend development & API integrations
+- Keycloak authentication & authorization (JWT, RBAC)
+- Docker & Postman — testing, logging, unit tests
+- AWS deployment & go-live support
 
-┌─────────────────────────────────────────────────────────────┐
-│  🔵  Software Engineer Intern                                │
-│      Taletro Bilgi Teknolojileri  ·  May 2024 – Jul 2025    │
-│                                                             │
-│  ›  ASP.NET Core Web API development                        │
-│  ›  PostgreSQL database design & performance tuning         │
-│  ›  API documentation with Swagger                          │
-│  ›  React frontend & API integrations                       │
-└─────────────────────────────────────────────────────────────┘
+**🔵 Software Engineer Intern — Taletro Bilgi Teknolojileri** &nbsp;`May 2024 – Jul 2025`
+- ASP.NET Core Web API development & backend process management
+- PostgreSQL database design & performance optimizations
+- API documentation with Swagger
+- React frontend development & API integrations
 
-┌─────────────────────────────────────────────────────────────┐
-│  🩷  Software Engineer Intern                                │
-│      PigaSoft  ·  Jul 2023 – Sep 2023                       │
-│                                                             │
-│  ›  Mobile app development with React Native                │
-│  ›  Corporate team culture & workflow experience            │
-└─────────────────────────────────────────────────────────────┘
-```
+**🩷 Software Engineer Intern — PigaSoft** &nbsp;`Jul 2023 – Sep 2023`
+- Mobile application development with React Native
+- Corporate team culture & workflow experience
 
 ---
 
@@ -117,18 +101,14 @@ public class Gülendam {
 - ASP.NET Core Identity + MSSQL for secure user & data management
 - Admin panel for product, portfolio & content management with SSL
 
----
-
 ### 🔗 [kubraakkurt.com.tr](https://kubraakkurt.com.tr) — Dietitian Website
-> Modern, user-friendly web site with dynamic admin panel.
+> Modern, user-friendly website with dynamic admin panel.
 - ASP.NET Core + MSSQL
 - Content & appointment management via admin panel
 - Scalable, user experience-focused architecture
 
----
-
 ### ✂️ Barbershop Booking & Management System
-> Secure and scalable reservation system for barbershops/hairdressers.
+> Secure and scalable reservation system for barbershops.
 - ASP.NET Core 8 + MongoDB + Identity
 - Clean Architecture with sustainable RESTful services
 - Admin panel with reservation approval & user management
@@ -137,8 +117,7 @@ public class Gülendam {
 
 ## 🎓 Education
 
-**Fırat University** — Computer Engineering, B.Sc.
-`Oct 2021 – Jul 2025`
+**Fırat University** — Computer Engineering, B.Sc. &nbsp;`Oct 2021 – Jul 2025`
 
 ---
 
@@ -146,14 +125,14 @@ public class Gülendam {
 
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=guleecetin&show_icons=true&theme=tokyonight&hide_border=true&bg_color=060608&title_color=7F77DD&icon_color=00C2FF&text_color=e8e6f0"/>
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=guleecetin&layout=compact&theme=tokyonight&hide_border=true&bg_color=060608&title_color=7F77DD&text_color=e8e6f0"/>
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=guleecetin&show_icons=true&theme=tokyonight&hide_border=true" />
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=guleecetin&layout=compact&theme=tokyonight&hide_border=true" />
 
 </div>
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=guleecetin&theme=tokyonight&hide_border=true&background=060608&ring=7F77DD&fire=D4537E&currStreakLabel=00C2FF"/>
+<img src="https://streak-stats.demolab.com?user=guleecetin&theme=tokyonight&hide_border=true" />
 
 </div>
 
@@ -169,8 +148,6 @@ public class Gülendam {
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/guleecetin)
 
 </div>
-
----
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=guleecetin&color=7F77DD&style=flat-square&label=profile+views" />
