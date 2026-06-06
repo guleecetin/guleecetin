@@ -170,7 +170,7 @@ public class Gülendam {
 
 🎓 &nbsp; **Fırat University** — Computer Engineering, B.Sc. &nbsp; `Oct 2021 – Jul 2025`
 
-🌐 &nbsp; **Languages:** Turkish (Native) · English (Professional)
+🌐 &nbsp; **Languages:** Turkish (Native) · English (beginning)
 
 ---
 
