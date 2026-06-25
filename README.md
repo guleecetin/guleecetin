@@ -134,6 +134,8 @@ public class Gülendam {
 | ⚗️ **Chemistry Portfolio Mgmt** | Product & portfolio platform for chemistry companies | ASP.NET Core MVC · MSSQL · Identity | [movekimya.com.tr](https://movekimya.com.tr) |
 | 🥗 **Dietitian Website** | Dynamic website with admin panel & appointment mgmt | ASP.NET Core · MSSQL | [kubraakkurt.com.tr](https://kubraakkurt.com.tr) |
 | ✂️ **Barbershop Booking System** | Reservation & user management with Clean Architecture | ASP.NET Core 8 · MongoDB · Identity | — |
+🌿 **Organica** | Organic food e-commerce platform with customer site, admin panel & microservice backend | ASP.NET Core 8 · MSSQL · Microservices · RabbitMQ · YARP | — |
+
 
 </div>
 
