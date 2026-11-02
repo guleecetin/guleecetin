@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" fill="none">
+<defs>
+  <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#8B5CF6"/><stop offset=".55" stop-color="#EC4899"/><stop offset="1" stop-color="#F59E0B"/>
+  </linearGradient>
+  <linearGradient id="gradv" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8B5CF6"/><stop offset=".55" stop-color="#EC4899"/><stop offset="1" stop-color="#F59E0B"/>
+  </linearGradient>
+  <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#8B5CF6" stop-opacity=".55"/><stop offset=".5" stop-color="#26263D"/><stop offset="1" stop-color="#EC4899" stop-opacity=".35"/>
+  </linearGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="30"/></filter>
+  
+</defs>
+<style>
+  text { font-family: 'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'DejaVu Sans Mono', monospace; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+  @keyframes ring { 0% { r: 4; opacity: .7; } 100% { r: 11; opacity: 0; } }
+  @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+  @keyframes drift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-30px,18px); } }
+  @keyframes fadeup { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  .pulse { animation: pulse 2s ease-in-out infinite; }
+  .ring { animation: ring 2s ease-out infinite; }
+  .blink { animation: blink 1.1s steps(1) infinite; }
+  .drift { animation: drift 14s ease-in-out infinite; }
+  .drift2 { animation: drift 18s ease-in-out infinite reverse; }
+  
+</style>
+
+<clipPath id="clipa"><rect x="0" y="0" width="1000" height="260" rx="18"/></clipPath>
+<rect x="0" y="0" width="1000" height="260" rx="18" fill="#11111B"/>
+<g clip-path="url(#clipa)">
+  <circle class="drift" cx="940" cy="10" r="150" fill="#8B5CF6" opacity=".16" filter="url(#blur)"/>
+  <circle class="drift2" cx="40" cy="260" r="110" fill="#EC4899" opacity=".10" filter="url(#blur)"/>
+</g>
+<rect x="0.5" y="0.5" width="999" height="259" rx="17.5" stroke="url(#stroke)"/>
+<text x="44" y="46" font-size="13" font-weight="600" fill="url(#grad)" letter-spacing="1">HELLO, WORLD 👋</text>
+<text x="44" y="78" font-size="15.5" fill="#C9C9DD">I&#x27;m a computer engineer focused on backend development in the C# /</text><text x="44" y="104" font-size="15.5" fill="#C9C9DD">.NET and ASP.NET Core ecosystem. Most recently I worked on a .NET 10</text><text x="44" y="130" font-size="15.5" fill="#C9C9DD">microservice-based e-Document portal at Ayssoft — Worker Services,</text><text x="44" y="156" font-size="15.5" fill="#C9C9DD">gRPC and Apache Kafka powering document processing and service</text><text x="44" y="182" font-size="15.5" fill="#C9C9DD">communication. Before that I built Spring Boot &amp; React apps at Qoex and</text><text x="44" y="208" font-size="15.5" fill="#C9C9DD">spent a year on ASP.NET Core backends at Taletro.</text>
+<rect x="640" y="30" width="324" height="200" rx="14" fill="#0B0B12" fill-opacity=".6" stroke="#26263D"/>
+<text class="mono" x="662" y="51" font-size="11" fill="#5E5E7A" letter-spacing="1.5">LOCATION</text><text x="662" y="71" font-size="14.5" font-weight="600" fill="#EEEEF6">Ankara, Türkiye</text><text class="mono" x="662" y="101" font-size="11" fill="#5E5E7A" letter-spacing="1.5">EDUCATION</text><text x="662" y="121" font-size="14.5" font-weight="600" fill="#EEEEF6">B.Sc. Computer Eng. · Fırat Univ.</text><line x1="662" y1="80" x2="942" y2="80" stroke="#26263D"/><text class="mono" x="662" y="151" font-size="11" fill="#5E5E7A" letter-spacing="1.5">FOCUS</text><text x="662" y="171" font-size="14.5" font-weight="600" fill="#EEEEF6">Microservices · Clean Architecture</text><line x1="662" y1="130" x2="942" y2="130" stroke="#26263D"/><text class="mono" x="662" y="201" font-size="11" fill="#5E5E7A" letter-spacing="1.5">LANGUAGES</text><text x="662" y="221" font-size="14.5" font-weight="600" fill="#EEEEF6">Turkish · English</text><line x1="662" y1="180" x2="942" y2="180" stroke="#26263D"/>
+
+</svg>

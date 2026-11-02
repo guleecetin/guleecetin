@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="610" viewBox="0 0 1000 610" fill="none">
+<defs>
+  <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#8B5CF6"/><stop offset=".55" stop-color="#EC4899"/><stop offset="1" stop-color="#F59E0B"/>
+  </linearGradient>
+  <linearGradient id="gradv" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8B5CF6"/><stop offset=".55" stop-color="#EC4899"/><stop offset="1" stop-color="#F59E0B"/>
+  </linearGradient>
+  <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#8B5CF6" stop-opacity=".55"/><stop offset=".5" stop-color="#26263D"/><stop offset="1" stop-color="#EC4899" stop-opacity=".35"/>
+  </linearGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="30"/></filter>
+  <linearGradient id="tl" x1="0" y1="50" x2="0" y2="570" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#8B5CF6"/><stop offset=".6" stop-color="#EC4899"/><stop offset="1" stop-color="#EC4899" stop-opacity="0"/></linearGradient>
+</defs>
+<style>
+  text { font-family: 'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'DejaVu Sans Mono', monospace; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+  @keyframes ring { 0% { r: 4; opacity: .7; } 100% { r: 11; opacity: 0; } }
+  @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+  @keyframes drift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-30px,18px); } }
+  @keyframes fadeup { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  .pulse { animation: pulse 2s ease-in-out infinite; }
+  .ring { animation: ring 2s ease-out infinite; }
+  .blink { animation: blink 1.1s steps(1) infinite; }
+  .drift { animation: drift 14s ease-in-out infinite; }
+  .drift2 { animation: drift 18s ease-in-out infinite reverse; }
+  
+</style>
+<clipPath id="clipe"><rect x="0" y="0" width="1000" height="610" rx="18"/></clipPath>
+<rect x="0" y="0" width="1000" height="610" rx="18" fill="#11111B"/>
+<g clip-path="url(#clipe)">
+  <circle class="drift" cx="940" cy="10" r="150" fill="#8B5CF6" opacity=".16" filter="url(#blur)"/>
+  <circle class="drift2" cx="40" cy="610" r="110" fill="#EC4899" opacity=".10" filter="url(#blur)"/>
+</g>
+<rect x="0.5" y="0.5" width="999" height="609" rx="17.5" stroke="url(#stroke)"/><line x1="56" y1="50" x2="56" y2="570" stroke="url(#tl)" stroke-width="2"/><circle cx="56" cy="50" r="7" fill="#0B0B12" stroke="#EC4899" stroke-width="2"/><circle cx="56" cy="50" r="2.5" fill="#EC4899"/><circle cx="56" cy="262" r="7" fill="#0B0B12" stroke="#EC4899" stroke-width="2"/><circle cx="56" cy="262" r="2.5" fill="#EC4899"/><circle cx="56" cy="446" r="7" fill="#0B0B12" stroke="#EC4899" stroke-width="2"/><circle cx="56" cy="446" r="2.5" fill="#EC4899"/><text x="92" y="56" font-size="19" font-weight="700" fill="#EEEEF6">Backend Developer</text><text x="92" y="80" font-size="14.5" font-weight="600" fill="url(#grad)">Ayssoft</text><rect x="802" y="40" width="158" height="26" rx="13" fill="#161624" stroke="#26263D"/><text class="mono" x="881" y="57" font-size="12.5" fill="#9494B0" text-anchor="middle">Jul 2026 – Oct 2026</text><path d="M94 101 l6 0" stroke="#EC4899" stroke-width="2" stroke-linecap="round"/><text x="110" y="106" font-size="14.5" fill="#BDBDD3">Contributed to a .NET 10 microservice e-Document portal: e-Invoice, e-Waybill, e-Ledger, e-Archive, e-SMM and more.</text><path d="M94 129 l6 0" stroke="#EC4899" stroke-width="2" stroke-linecap="round"/><text x="110" y="134" font-size="14.5" fill="#BDBDD3">Built 6 Worker Services handling signing, Schematron/XSLT validation, packaging, GİB submission and status tracking.</text><path d="M94 157 l6 0" stroke="#EC4899" stroke-width="2" stroke-linecap="round"/><text x="110" y="162" font-size="14.5" fill="#BDBDD3">Worked on gRPC communication and Apache Kafka topic integrations in the system admin panel.</text><path d="M94 185 l6 0" stroke="#EC4899" stroke-width="2" stroke-linecap="round"/><text x="110" y="190" font-size="14.5" fill="#BDBDD3">PostgreSQL with 1 primary + 2 read replicas, MongoDB for application logs; Grafana, Portainer, Nexus.</text><text x="92" y="268" font-size="19" font-weight="700" fill="#EEEEF6">Full Stack Developer</text><text x="92" y="292" font-size="14.5" font-weight="600" fill="url(#grad)">Qoex Teknoloji</text><rect x="795" y="252" width="165" height="26" rx="13" fill="#161624" stroke="#26263D"/><text class="mono" x="878" y="269" font-size="12.5" fill="#9494B0" text-anchor="middle">Dec 2025 – Apr 2026</text><path d="M94 313 l6 0" stroke="#EC4899" stroke-width="2" stroke-linecap="round"/><text x="110" y="318" font-size="14.5" fill="#BDBDD3">Built Spring Boot backends on a microservice architecture; designed inter-service communication.</text><path d="M94 341 l6 0" stroke="#EC4899" stroke-width="2" stroke-linecap="round"/><text x="110" y="346" font-size="14.5" fill="#BDBDD3">Developed React frontends and API integrations; managed auth with Keycloak (JWT, RBAC).</text><path d="M94 369 l6 0" stroke="#EC4899" stroke-width="2" stroke-linecap="round"/><text x="110" y="374" font-size="14.5" fill="#BDBDD3">Docker &amp; Postman for development, testing and logging; supported AWS deployments and go-live.</text><text x="92" y="452" font-size="19" font-weight="700" fill="#EEEEF6">Full Stack Developer Intern</text><text x="92" y="476" font-size="14.5" font-weight="600" fill="url(#grad)">Taletro Bilgi Teknolojileri</text><rect x="792" y="436" width="168" height="26" rx="13" fill="#161624" stroke="#26263D"/><text class="mono" x="876" y="453" font-size="12.5" fill="#9494B0" text-anchor="middle">May 2024 – Jun 2025</text><path d="M94 497 l6 0" stroke="#EC4899" stroke-width="2" stroke-linecap="round"/><text x="110" y="502" font-size="14.5" fill="#BDBDD3">Developed ASP.NET Core Web APIs and owned backend processes.</text><path d="M94 525 l6 0" stroke="#EC4899" stroke-width="2" stroke-linecap="round"/><text x="110" y="530" font-size="14.5" fill="#BDBDD3">Designed PostgreSQL schemas and delivered performance improvements.</text><path d="M94 553 l6 0" stroke="#EC4899" stroke-width="2" stroke-linecap="round"/><text x="110" y="558" font-size="14.5" fill="#BDBDD3">Documented APIs with Swagger and managed integration workflows.</text>
+</svg>
